@@ -187,7 +187,6 @@ show_direction()
 
 # Main loop
 while True:
-    en.on()
     if filament_loaded():
         show_direction()
         if button.value() == 0:
