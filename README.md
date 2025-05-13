@@ -10,7 +10,7 @@ It requires hardware input for:
 
 - 🧠 **Persistent settings** (direction and speed saved across reboots)
 - ⏱️ **Smooth time-based motor ramping** (acceleration/deceleration)
-- 🧵 **Filament runout detection** with debounce filtering
+- 🕵️‍♂️ **Filament runout detection** with debounce filtering
 - 🚀 **Speed selection** via button during setup (slow/normal/fast)
 - ↔️ **Direction toggle** via long button press (when filament is unloaded)
 - 💡 **Dual LED indicators** for direction and filament presence
