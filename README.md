@@ -11,12 +11,12 @@ It requires hardware input for:
 - 🧠 **Persistent settings** (direction and speed saved across reboots)
 - ⏱️ **Smooth time-based motor ramping** (acceleration/deceleration)
 - 🧵 **Filament runout detection** with debounce filtering
-- 🎛️ **Speed selection** via button during setup (slow/normal/fast)
-- 🔁 **Direction toggle** via long button press (when filament is unloaded)
+- 🚀 **Speed selection** via button during setup (slow/normal/fast)
+- ↔️ **Direction toggle** via long button press (when filament is unloaded)
 - 💡 **Dual LED indicators** for direction and filament presence
-  - 🔁 Left LED = Forward direction
-  - 🔁 Right LED = Reverse direction
-  - 🔘 Blinking = Motor active
+  - ⬅️ Left LED = Forward direction
+  - ➡️ Right LED = Reverse direction
+  - 🚨 Blinking = Motor active
   - 🔆 On (steady) = Filament loaded
 
 ---
@@ -41,7 +41,7 @@ It requires hardware input for:
 
 ## 🔧 How to Use
 
-### ⬆️ Startup LED Sequence
+### 🎬 Startup LED Sequence
 - During startup, LEDs flash.
 - While flashing:
   - Press button quickly to cycle through speed levels.
@@ -59,7 +59,7 @@ It requires hardware input for:
   - Filament runs out
 - Direction LED blinks while motor is running
 
-### ⏏️ Persistent Settings
+### 💾 Persistent Settings
 - Settings are stored in config.json on the ESP8266.
 - On each boot, last saved speed and direction are restored.
 
