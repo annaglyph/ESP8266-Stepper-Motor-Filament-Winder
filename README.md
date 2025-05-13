@@ -4,7 +4,7 @@ This MicroPython-based project runs on an ESP8266 (e.g., Wemos D1 Mini) and cont
 
 It includes hardware input for:
 - A **momentary button** for start/stop, speed and direction control. [Tact Button Switch 2 Pin DIP](https://amzn.eu/d/8XbbaUR)
-- A **filament runout sensor** to stop when filament ends. [Micro Limit Switch](https://amzn.eu/d/gJHNqDW))
+- A **filament runout sensor** to stop when filament ends. [Micro Limit Switch](https://amzn.eu/d/gJHNqDW)
 
 ## ✨ Features
 
