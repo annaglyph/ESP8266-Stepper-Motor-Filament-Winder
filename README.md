@@ -3,8 +3,8 @@
 This MicroPython-based project runs on an ESP8266 (e.g., Wemos D1 Mini) and controls a stepper motor via an A4988 driver to wind 3D printer filament from one spool to another.
 
 It includes hardware input for:
-- A **momentary button** for start/stop, speed and direction control
-- A **filament runout sensor** to stop when filament ends
+- A **momentary button** for start/stop, speed and direction control. [Tact Button Switch 2 Pin DIP] (https://amzn.eu/d/8XbbaUR)
+- A **filament runout sensor** to stop when filament ends. [Micro Limit Switch](https://amzn.eu/d/gJHNqDW))
 
 ## ✨ Features
 
@@ -24,8 +24,8 @@ It includes hardware input for:
 | ESP8266 (D1 Mini)    | Microcontroller running MicroPython |
 | A4988 Driver        | Controls stepper motor             |
 | Stepper Motor       | NEMA17 or similar                  |
-| Momentary Button    | Connected to D13 (GPIO13)          |
-| Runout Sensor       | Normally-closed filament sensor to D3 (GPIO3) |
+| Momentary Button    | Connected to RX (GPIO3)          |
+| Runout Sensor       | Normally-closed filament sensor to D7 (GPI13) |
 | LEDs (PWM capable)  | Connected to D5 (GPIO14 - Right), D6 (GPIO12 - Left) |
 
 🪛 **Wiring Notes:**
@@ -100,7 +100,10 @@ Here are some ideas to expand the project:
 
 ## ❤️ Credits
 
-This project was developed and refined through iterative collaboration using MicroPython and hardware prototyping. Inspired by the need for a smart and flexible 3D printer filament rewinder.
+This project was developed and refined through iterative enhancement using MicroPython and hardware prototyping.
+Inspired by LTS Designs incredible "LTS Respooler Motorized Filament Winder".
+https://lts-design.com/
+https://makerworld.com/en/models/448008-lts-respooler-motorized-filament-winder#profileId-354782
 
 ---
 
