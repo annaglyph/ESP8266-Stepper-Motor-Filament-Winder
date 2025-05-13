@@ -2,7 +2,7 @@
 
 A MicroPython-based controller for winding 3D printer filament between spools using a stepper motor. This script runs on an ESP8266 (like a D1 Mini) with an A4988 driver.
 
-It includes hardware input for:
+It requires hardware input for:
 - A **momentary button** for start/stop, speed and direction control. [Tact Button Switch 2 Pin DIP](https://amzn.eu/d/8XbbaUR)
 - A **filament runout sensor** to stop when filament ends. [Micro Limit Switch](https://amzn.eu/d/gJHNqDW)
 
