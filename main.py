@@ -28,8 +28,8 @@ LED_BRIGHTNESS = 50        # PWM duty (0-1023)
 # -------------------------------
 # Hardware Setup (D1 Mini pins)
 # -------------------------------
-button = Pin(13, Pin.IN, Pin.PULL_UP)
-sensor = Pin(3, Pin.IN, Pin.PULL_UP)
+button = Pin(3, Pin.IN, Pin.PULL_UP)
+sensor = Pin(13, Pin.IN, Pin.PULL_UP)
 led_l = PWM(Pin(12), freq=1000)
 led_r = PWM(Pin(14), freq=1000)
 en = Pin(0, Pin.OUT)
