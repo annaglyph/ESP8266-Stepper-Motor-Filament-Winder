@@ -101,6 +101,7 @@ Here are some ideas to expand the project:
 ## ❤️ Credits
 
 This project was developed and refined through iterative enhancement using MicroPython and hardware prototyping.
+
 Inspired by LTS Designs incredible "LTS Respooler Motorized Filament Winder".
 https://lts-design.com/
 https://makerworld.com/en/models/448008-lts-respooler-motorized-filament-winder#profileId-354782
