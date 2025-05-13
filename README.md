@@ -48,7 +48,7 @@ It includes hardware input for:
     - 1 blink = Slow
     - 2 blinks = Normal
     - 3 blinks = Fast
-  - Long-press the button (1.5s) to toggle direction (only works if filament is NOT loaded).
+  - Long-press the button (>2s) to toggle direction (only works if filament is NOT loaded).
     - Left LED = Forward
     - Right LED = Reverse
 
