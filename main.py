@@ -28,13 +28,13 @@ LED_BRIGHTNESS = 50        # PWM duty (0-1023)
 # -------------------------------
 # Hardware Setup (D1 Mini pins)
 # -------------------------------
-button = Pin(3, Pin.IN, Pin.PULL_UP)
-sensor = Pin(13, Pin.IN, Pin.PULL_UP)
-led_l = PWM(Pin(12), freq=1000)
-led_r = PWM(Pin(14), freq=1000)
-en = Pin(0, Pin.OUT)
-stp = Pin(4, Pin.OUT)
-dir = Pin(5, Pin.OUT)
+button = Pin(3, Pin.IN, Pin.PULL_UP)  # GPIO3  (RX)
+sensor = Pin(13, Pin.IN, Pin.PULL_UP) # GPIO13 (D7)
+led_l = PWM(Pin(12), freq=1000)       # GPIO12 (D6)
+led_r = PWM(Pin(14), freq=1000)       # GPIO14 (D5)
+en = Pin(0, Pin.OUT)                  # GPIO0  (D3)
+stp = Pin(4, Pin.OUT)                 # GPIO4  (D2)
+dir = Pin(5, Pin.OUT)                 # GPIO5  (D1)
 
 # -------------------------------
 # Configuration Persistence
